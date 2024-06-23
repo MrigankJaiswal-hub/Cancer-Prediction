@@ -3,7 +3,9 @@
 Machine learning (ML) models are increasingly used to predict the presence of cancer, leveraging detailed datasets that describe various features of cell nuclei. In this context, the target variable (y) is the diagnosis, where 'M' denotes malignant and 'B' denotes benign. The model uses ten key features (X) computed for each cell nucleus, which include:
 
 **Radius**: Mean of distances from the center to points on the perimeter.
+
 **Texture**: Standard deviation of gray-scale values.
+
 **Perimeter**: Measurement around the boundary of the cell.
 **Area**: Size of the cell.
 **Smoothness**: Local variation in radius lengths.
